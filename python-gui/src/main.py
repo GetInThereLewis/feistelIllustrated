@@ -4,7 +4,7 @@ import os
 app = QApplication([])  # Create a new QApplication instance
 
 
-with open("python-gui/env/style/style.css", "r") as file:
+with open("python-gui/src/style/style.css", "r") as file:
     app.setStyleSheet(file.read())
 
 
